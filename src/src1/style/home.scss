@@ -1,0 +1,13 @@
+@import "color";
+
+%flex-disply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container{
+    @extend %flex-disply;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,40 @@
+@import "color";
+
+.container-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    margin:1rem 0;
+    background: $khaki;
+    
+    input{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border-radius: 10px;
+        border: none;
+
+        &:focus{
+            box-shadow: inset 1px 1px 3px $abi;
+        }
+    }
+    button{
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: none;
+
+        &:hover{
+            box-shadow: 1px 3px 4px $abi;
+        }
+    }
+
+    select{
+        padding: 0.5rem;
+        border-radius: 2px;
+        border: none;
+        margin: 0 10px;
+      
+    }
+}

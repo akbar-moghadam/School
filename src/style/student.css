@@ -1,0 +1,25 @@
+.addstudent_container{
+    margin-top: 5rem;
+}
+.addstudent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.field{
+    margin: 1rem;
+    padding: 1rem;
+}
+.btn_addstudent{
+    margin: 2rem;
+}
+
+
+
+/*select-teacher.js*/
+
+.teacher_list{
+    width: 2rem;
+    height: 1rem;
+}

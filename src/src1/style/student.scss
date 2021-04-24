@@ -1,0 +1,60 @@
+@import "color";
+
+%flex-disply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_container {
+  @extend %flex-disply;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .title {
+    color: $abi;
+    position: relative;
+  }
+ 
+    
+    .std-table {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      background: $kerem;
+      width: 60%;
+      .head {
+        background: aquamarine;
+       
+          padding: 2rem;
+          text-align: center;
+          font-size: 16px;
+          td{
+              padding: 1rem;
+          }
+        
+      }
+      .body {
+        
+          padding: 1rem;
+          text-align: center;
+          font-size: 16px;
+          tr:nth-child(even){
+            background: $zeytoni;
+          }
+          td{
+              padding: 0.5rem;
+          }
+          
+       
+    }
+}
+
+
+    .add-std{
+        @extend %flex-disply;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+  
+}
